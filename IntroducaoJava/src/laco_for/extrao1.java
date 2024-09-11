@@ -10,5 +10,11 @@ package laco_for;
  * @author kelvin
  */
 public class extrao1 {
-    
-}
+     public static void main(String[] args) {
+         
+         
+         
+         
+         
+         
+}}
