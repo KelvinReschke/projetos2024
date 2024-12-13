@@ -50,16 +50,15 @@ public class extraatt01 {
 
     public int mostrarMenu() {
         System.out.println("=== Menu de Opções ===\n"
-                + "0. mostraRelatoriosDosAlunos\n"
-                + "1. Cadastrar Alunos\n"
-                + "2. Cadastrar Notas\n"
-                + "3. Calcular Médias\n"
-                + "4. Exibir Médias\n"
-                + "5. Exibir Aluno com Maior Média\n"
-                + "6. Exibir Aluno com Maior Nota em determinada Disciplina\n"
-                + "7. Exibir lista de alunos com o resultado final (aprovado ou reprovado)\n"
-                + "8. Sair do Programa\n"
-                + "Escolha uma opção (1-8):");
+                + "tecle 1 para mostraRelatoriosDosAlunos\n"
+                + "tecle 2 para Cadastrar Alunos\n"
+                + "tecle 3 parava Cadastrar Notas\n"
+                + "tecle 4 para Calcular Médias\n"
+                + "tecle 5 para Exibir Médias\n"
+                + "tecle 6 para Exibir Aluno com Maior Média\n"
+                + "tecle 7 para Exibir Aluno com Maior Nota em determinada Disciplina\n"
+                + "tecle 8 para Exibir lista de alunos com o resultado final (aprovado ou reprovado)\n"
+                + "tecle 9 para Sair do Programa\n");
         int opcaoEscolhida = entrada.nextInt();
         return opcaoEscolhida;
     }
